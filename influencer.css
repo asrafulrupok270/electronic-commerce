@@ -1,0 +1,208 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+ 
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #E6E6E6;
+   
+}
+
+/*---- nav ---- */
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+ 
+}
+.menu-list a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: black;
+   
+}
+.menu-list .influencer a {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.menu-list .fa-solid{
+    color: brown;
+    font-size: 20px;
+}
+/* ---------camera section ------- */
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 45px;
+ 
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+ 
+.text button{
+    background-color: rgb(196, 45, 110);
+    color: white;
+    font-weight: 700;
+    padding: 8px 28px;
+    border-radius: 20px;
+    border: 1px solid rgb(196, 45, 110);
+    text-transform: capitalize;
+}
+.busisnessman img{
+ 
+    margin-right: 40px;
+   
+ 
+ 
+}
+.busisnessman{
+   /* border-top: 1px solid gray;
+   border-bottom: 1px solid gray; */
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   margin-bottom: 50px;
+   /* margin-left: 165px;
+   margin-right: 165px; */
+   
+  
+}
+.busisnessman hr{
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+}
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 210px;
+    margin-right: 210px;
+   
+}
+.box{
+    box-shadow: 0px 0px 12px  rgb(191, 174, 174);
+    padding: 10px;
+    border-radius: 5px;
+}
+.box .ratting img{
+    text-align: center;
+
+}
+.fa-solid{
+    color: rgba(205, 123, 8, 0.615);
+}
+.collection{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.section-two-footer{
+    text-align: right;
+    margin-right: 120px;
+}
+.section-two-footer a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(200, 18, 130);
+}
+ 
+.section-two-footer .fa-arrow{
+    color: aquamarine;
+}
+.third-section{
+    display: flex;
+    margin-top: 100px;
+    
+    margin-left: 165px;
+    margin-right: 199px;
+  
+
+}
+.fa-arrow-right{
+    color:white;
+}
+.img-info{
+    margin-left: 50px;
+}
+.img-info h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.img-info button{
+    background-color: rgb(196, 45, 110);
+    color: white;
+    font-weight: 700;
+    padding: 8px 28px;
+    border-radius: 20px;
+    border: 1px solid rgb(196, 45, 110);
+    text-transform: capitalize;
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+
+}
+.footer-info{
+    color: white;
+}
+.footer-info h2{
+    font-weight: 700;
+    font-size: 15px;
+}
+.footer-info p{
+    font-size: 10px;
+    font-weight: 700;
+}
+.fa-brands{
+    color: gold;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    
+    
+}
+.social,.insta,.twiter ,.facebook{
+    margin-right: 20px;
+}
+.icons{
+    color: rgb(200, 18, 130);
+}
+@media screen and (max-width:600px) {
+    .second-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .first-section{
+      flex-direction: column-reverse;
+    }
+.busisnessman{
+    flex-direction:  row;
+    flex-wrap: wrap;
+}
+.third-section{
+flex-direction: column;
+}
+.menu-list{
+    flex-direction: column;
+}
+}
